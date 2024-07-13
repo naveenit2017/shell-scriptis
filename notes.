@@ -1,0 +1,2 @@
+# uname -it will give the OS type
+#S0 -script name,$1,$2,$3---those are command line arguments.
