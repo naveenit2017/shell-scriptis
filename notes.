@@ -1,2 +1,13 @@
 # uname -it will give the OS type
 #S0 -script name,$1,$2,$3---those are command line arguments.
+
+If we want to store the command value in variable,below are the two ways.
+1.var=$(command)
+2.test=`command`
+
+Read the content from the file.
+1.more ---more -5 file.txt it will display top 5,more +5 file.txt it will start from 5th. 
+2.less 
+3.head
+4.tail
+5.cat
