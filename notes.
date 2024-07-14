@@ -11,3 +11,8 @@ Read the content from the file.
 3.head
 4.tail
 5.cat
+
+awk --it will take the input from previous command 
+grep will use to search
+cut --it will cut the fields,-d delimiter,-f --field
+ex: disk_usage=$(df -h |grep /dev/xvda16 |awk '{print $5}' |cut -d '%' -f1)
