@@ -16,3 +16,20 @@ awk --it will take the input from previous command
 grep will use to search
 cut --it will cut the fields,-d delimiter,-f --field
 ex: disk_usage=$(df -h |grep /dev/xvda16 |awk '{print $5}' |cut -d '%' -f1)
+
+du:Disk usage standard command.
+-h --It will give the output human readable format
+-a --give the file sizes in specified path
+SORT:sort a file,the records are paricular order based on input
+sort -n --sort the file numerical order (less or more)
+sort -r --sort the file in reverse order
+sort -rh --sort the file humanreadable format and reverse order.
+
+ex:
+./command-line.sh am learng aws
+#$0 --->Scriptname(command-line.sh)
+#$1 -->am
+#S@ --complete list of arguments(command-line.sh am learng aws)
+#$# --Total number of parameters
+#$$ --process id of the script(Pid)
+#$? --exit code for the script(0 or 1)
