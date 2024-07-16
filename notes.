@@ -32,4 +32,12 @@ ex:
 #S@ --complete list of arguments(command-line.sh am learng aws)
 #$# --Total number of parameters
 #$$ --process id of the script(Pid)
-#$? --exit code for the script(0 or 1)
+#$? --exit code for the script(0 or 1)==>The last command status if its true will get 0 otherwise will get non zero value.
+#find ./my-scrpit.sh
+#mtime modified timestamp
+
+#find . -mtime +30 -delete
+#touch -a -m -t
+#-a = accessed -m = modified -t =timestamp -use
+#[[cc]yy]MMDDhhmm[.ss] timeformat
+#touch -a -m -t 201512240254.55 sample.txt
