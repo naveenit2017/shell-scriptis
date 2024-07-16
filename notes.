@@ -45,3 +45,14 @@ ex:
 ===#-e exist
  rpm -qa |grep wget  //it will use centos and RHEL // list of all installed RPM packages
  dpkg -l |grep wget  //ubuntu --it will list the installed packages.
+
+for loop:
+---------
+#!/bin/bash
+echo "This is for loop example"
+for table in 1,2,3,4;
+do
+        echo $table
+done
+
+
