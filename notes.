@@ -41,3 +41,7 @@ ex:
 #-a = accessed -m = modified -t =timestamp -use
 #[[cc]yy]MMDDhhmm[.ss] timeformat
 #touch -a -m -t 201512240254.55 sample.txt
+===#wget tool --is used to download the s/w 
+===#-e exist
+ rpm -qa |grep wget  //it will use centos and RHEL // list of all installed RPM packages
+ dpkg -l |grep wget  //ubuntu --it will list the installed packages.
