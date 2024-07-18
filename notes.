@@ -61,4 +61,8 @@ DOM --Day of the Month --1-31
 MON --Month --1-12
 WOD --week of the day 0-6
 
+crontab -l //list of the crontab
+crontab -e //edit the crontab
+* * * * * /home/ubuntu/status-check.sh > /dev/null (dev/null if any error will give that will redirect to the dev/null path)
+
 
