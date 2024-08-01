@@ -56,7 +56,7 @@ do
 done
 =====CRONTAB=======
 MM --Minutes ---0-59
-HR --HRS --0--11
+HR --HRS --0--23
 DOM --Day of the Month --1-31
 MON --Month --1-12
 WOD --week of the day 0-6
